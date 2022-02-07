@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -70,13 +72,17 @@ article.normal {
     background-color: white;
     color: black;
     padding: 15px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     font-size: 3.5vw;
+    line-height: 2em;
 }
 
 article.img {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.322);
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 article.img p {
@@ -84,6 +90,9 @@ article.img p {
     padding: 5px;
     display: inline-block;
     color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
 }
 
 article.img#joaninha  {
