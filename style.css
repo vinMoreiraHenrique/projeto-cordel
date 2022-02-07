@@ -60,18 +60,17 @@ main {
 }
 
 article {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 5vw;
+    
+   
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    
 }
 
 article.normal {
     background-color: white;
     color: black;
-    padding: 15px;
+    padding-right: 15px;
     padding-top: 20vh;
     padding-bottom: 20vh;
     font-size: 3.5vw;
@@ -82,7 +81,8 @@ article.img {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.322);
     background-attachment: fixed;
     background-size: cover;
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 article.img p {
@@ -92,7 +92,8 @@ article.img p {
     color: white;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    
+    font-size: 3.5vw;
+    background-attachment: fixed;
 }
 
 article.img#joaninha  {
